@@ -1,6 +1,7 @@
 import MyComponent from "./MyComponents";
 import Say from "./Say";
 import EventPractice from "./EventPractice";
+import IterationSample from "./iterationSample";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <MyComponent name="Gopher">리액트</MyComponent>
       <Say />
       <EventPractice />
+      <IterationSample />
     </div>
   );
 };
