@@ -6,6 +6,7 @@ import Counter from "./Counter";
 import Counter2 from "./Counter2";
 import Info from "./Info";
 import Average from "./Average";
+import StyledComponent from "./StyledComponent";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Counter2 />
       <Info />
       <Average />
+      <StyledComponent />
     </div>
   );
 };
